@@ -14,11 +14,11 @@ font-family: 'Poppins', sans-serif;
 2.  Header
 3.  Welcome-hero
 4.  About me 
-5.  Education
+5.  sophievirgile
 6.  Skill
 7.  Experience
 8.  Profiles
-9.  Portfolio
+9.  Region
 10. Clients
 11. Contact
 
@@ -325,19 +325,19 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.single-about-img */
 
 /*-------------------------------------
-        5.  Education
+        5.  SophieVirgile
 --------------------------------------*/
 
 .education {
     background:  #f9fbfd;
     padding-top:  50px;
 }
-.education-horizontal-timeline {
+.sophievirgile-horizontal-timeline {
     padding: 80px 0;
 }
 
-/*.education-horizontal-timeline*/
-.education-horizontal-timeline .col-sm-4 {padding:0 2px;}
+/*.sophievirgile-horizontal-timeline*/
+.sophievirgile-horizontal-timeline .col-sm-4 {padding:0 2px;}
 
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
@@ -364,7 +364,7 @@ span.single-timeline-horizontal {
 span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.timeline-horizontal-border*/
 
-/*.education-horizontal-timeline*/
+/*.sophievirgile-horizontal-timeline*/
 
 /*-------------------------------------
         6.  Skills
@@ -592,14 +592,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
 .single-profile:hover .profile-border {border:transparent;}
 /*-------------------------------------
-        9. Portfolio
+        9. Region
 --------------------------------------*/
-.portfolio {
+.region {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
 }
 
-.portfolio-content {padding-top: 100px;}
+.region-content {padding-top: 100px;}
 
 /* ---- .item ---- */
 .isotope:after {
