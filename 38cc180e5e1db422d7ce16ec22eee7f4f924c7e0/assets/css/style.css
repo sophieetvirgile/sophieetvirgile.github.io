@@ -17,9 +17,9 @@ font-family: 'Poppins', sans-serif;
 5.  sophievirgile
 6.  Skill
 7.  Experience
-8.  Profiles
-9.  Region
-10. Clients
+8.  Liste
+9.  Hebergements
+10.  Region
 11. Contact
 
 /*-------------------------------------
@@ -440,7 +440,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 -------------------------------------*/
 .experience {
     padding: 50px 0 100px;
-    border-top: 1px solid #e5ebf2;
+    border: 1px solid #e5ebf2;
 }
 .experience-content {padding-top: 100px;}
 .single-timeline-box {margin-bottom: 75px;}
@@ -516,22 +516,44 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .experience-time-responsive{display: none;}
+
 /*-------------------------------------
-        8. Profiles
+        8. Liste
 --------------------------------------*/
-.profiles {
+.liste {
+    padding: 50px 0 100px;
+    border:  1px solid #e5ebf2;
+}
+.liste-area {
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+.liste-area .item {padding: 0 25px;}
+
+.liste .liste-area .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius:0;
+}
+
+/*-------------------------------------
+        9. Hebergements
+--------------------------------------*/
+.hebergements {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
 }
 
-.profiles-content {padding-top: 100px;}
-.profiles-content .col-sm-3{padding:0;}
-.profile-txt {
+.hebergements-content {padding-top: 100px;}
+.hebergements-content .col-sm-3{padding:0;}
+.hebergement-txt {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.single-profile {
+.single-hebergement {
     position: relative;
     height: 150px;
     display: flex;
@@ -545,16 +567,16 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transition:background 0.5s linear; 
     transition:background 0.5s linear;
 }
-.profile-icon-name {
+.herbegement-icon-name {
     text-transform: capitalize;
     color: #636a82;
     font-size: 16px;
 }
-.single-profile.profile-no-border{border-right:transparent;}
-.profile-border {
+.single-hebergement.hebergement-no-border{border-right:transparent;}
+.hebergement-border {
     border-bottom: 1px solid #b2c1ce;
 }
-.single-profile-overlay{
+.single-hebergement-overlay{
     display:flex;
     align-items:center;
     text-transform: capitalize;
@@ -581,7 +603,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transition: .5s;
     transition: .5s;
 }
-.single-profile:hover .single-profile-overlay{
+.single-hebergement:hover .single-hebergement-overlay{
     -webkit-transform:scale(1);
     -moz-transform:scale(1);
     -ms-transform:scale(1);
@@ -589,10 +611,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transform:scale(1);
     top:0;
 }
-.single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
-.single-profile:hover .profile-border {border:transparent;}
+.single-hebergement:hover .hebergement-icon-name,.single-hebergement:hover .hebergement-txt a>i{color: #fff;}
+.single-hebergement:hover .hebergement-border {border:transparent;}
 /*-------------------------------------
-        9. Region
+        10. Region
 --------------------------------------*/
 .region {
     padding:  50px 0 100px;
@@ -667,23 +689,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     top:0;
 }/*.isotope-overlay*/
 
-/*-------------------------------------
-        10. Clients
---------------------------------------*/
-.clients {padding-top: 50px;}
-.clients-area {
-    display: flex;
-    align-items: center;
-    height: 250px;
-}
-.clients-area .item {padding: 0 25px;}
-
-.clients .clients-area .owl-carousel .owl-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius:0;
-}
 
 /*-------------------------------------
         11. Contact
