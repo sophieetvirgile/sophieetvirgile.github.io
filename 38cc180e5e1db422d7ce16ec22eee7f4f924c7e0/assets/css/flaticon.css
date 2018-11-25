@@ -24,16 +24,16 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-  font-size: 24px;
+  font-size: 60px;
   font-style: normal;
   margin-left: 0px;
 }
 
-.flaticon-bitbucket-logotype-camera-lens-in-perspective:before { content: "\f100"; }
-.flaticon-squarespace-logo:before { content: "\f101"; }
-.flaticon-smug:before { content: "\f102"; }
-.flaticon-flickr-website-logo-silhouette:before { content: "\f103"; }
-.flaticon-github-logo:before { content: "\f104"; }
-.flaticon-behance-logo:before { content: "\f105"; }
-.flaticon-dribbble:before { content: "\f106"; }
-.flaticon-themeforest:before { content: "\f107"; }
+.flaticon-travel:before { content: "\f100"; } /* camping logo */
+.flaticon-quality:before { content: "\f101"; } /* hotel + 1star */
+.flaticon-hotel:before { content: "\f102"; } /* hotel + 2 stars */
+.flaticon-hotel-1:before { content: "\f103"; } /* 3 stars */
+.flaticon-lodging:before { content: "\f104"; } /* 2 stars */
+.flaticon-one:before { content: "\f105"; } /* 1 star */
+.flaticon-hotel-2:before { content: "\f106"; } /* 4 stars */
+.flaticon-hotel-3:before { content: "\f107"; } /* hotel + 4 stars */
