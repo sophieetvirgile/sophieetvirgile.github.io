@@ -5,7 +5,7 @@
 ==================================== */
 
 /*==================================
-font-family: 'Poppins', sans-serif;
+font-family: 'Montserrat', sans-serif;
 ==================================== */
 
 
@@ -38,7 +38,7 @@ font-family: 'Poppins', sans-serif;
 	box-sizing:border-box;
 }
 body{
-	font-family: 'Monserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size:16px;
 	color: #676a81; /*grey*/
 	background: #fff;
@@ -53,20 +53,20 @@ a,a:hover,a:active,a:focus {
 	color: #6a708e; /*lighter grey*/
 	font-size:16px;
 	padding:0;
+    font-family: 'Montserrat', sans-serif;
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
 	color:#43485c;
     font-size: 16px;
-	font-family: 'Poppins', sans-serif;
-	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
 }
 p {
 	margin: 0;
 	line-height:1.8;
 	color:#43485c;
 	font-size:14px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 img{border:none;max-width:100%; height:auto;}
 ul{
@@ -120,23 +120,23 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #600371;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 38px;
+    font-weight: 300;
     padding: 33px 0px 57px;
-    text-transform: uppercase;
+    font-family: 'Great Vibes', cursive;
 }
 /*.navbar-brand*/
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
     font-size: 16px;
-    font-weight: 400;
-    text-transform:uppercase;
+    font-weight: 200;
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
     -ms-transition: 0.3s linear; 
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
+    /*font-family: 'Great Vibes', cursive;*/ /*TODO ST: a voir*/
 }
 nav.navbar.bootsnav ul.nav > li > a {padding: 35px 20px;}
 nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #600371;}
@@ -216,11 +216,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #600371;}
 .header-text h2 span {color: #600371;}
 .header-text p {
     color: #fff;
-    font-size: 20px;
-    font-weight: 300;
-    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 100;
     margin: 30px 0 60px;
     letter-spacing: 1px;
+    font-family: 'Great Vibes', cursive;
 }
 .header-text a {
     width: 200px;
@@ -375,11 +375,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
 .section-heading h2 {
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 200;
     padding-bottom: 50px;
     border-bottom: 1px solid #e5ebf2;
+    font-family: 'Great Vibes', cursive;
 }
 .single-progress-txt {
     display: flex;
