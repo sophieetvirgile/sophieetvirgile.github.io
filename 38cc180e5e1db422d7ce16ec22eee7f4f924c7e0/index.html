@@ -849,41 +849,44 @@
 					<div class="row">
 						<div class="single-contact-box">
 							<div class="contact-form">
-								<form>
+								<form action="mailto:sophieetvirgile@gmail.com" onsubmit="replacespace()">
 									<div class="row">
 										<div class="col-sm-6 col-xs-12">
 											<div class="form-group">
-											  <input type="text" class="form-control" id="name" placeholder="Nom*" name="name">
-											</div><!--/.form-group-->
-										</div><!--/.col-->
-										<div class="col-sm-6 col-xs-12">
-											<div class="form-group">
-												<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+											  <input type="text" class="form-control" id="name" placeholder="Nom" name="name">
 											</div><!--/.form-group-->
 										</div><!--/.col-->
 									</div><!--/.row-->
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="form-group">
-												<input type="text" class="form-control" id="subject" placeholder="Objet" name="subject">
+												<input type="text" class="form-control" id="subject" placeholder="Objet" name="subject" required method="post">
 											</div><!--/.form-group-->
 										</div><!--/.col-->
 									</div><!--/.row-->
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="form-group">
-												<textarea class="form-control" rows="8" id="comment" placeholder="Message" ></textarea>
+												<textarea class="form-control" rows="8" cols="20" id="body" placeholder="Message" wrap="hard" required name="body"></textarea>
 											</div><!--/.form-group-->
 										</div><!--/.col-->
 									</div><!--/.row-->
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="single-contact-btn">
-												<a class="contact-btn" href="mailto:sophieetvirgile@gmail.com?subject=subject&body=Message" role="button">submit</a>
+												<input class="contact-btn" name="Submit" type="submit" value="Envoyer" >
 											</div><!--/.single-single-contact-btn-->
 										</div><!--/.col-->
 									</div><!--/.row-->
 								</form><!--/form-->
+								<script>
+								function replacespace() {
+								    var body = document.getElementById('body')
+								    body.value = body.value.replace(/ +/g, "\t");
+								    var subject = document.getElementById('subject')
+								    subject.value = subject.value.replace(/ +/g, "\t");
+								}
+								</script>
 							</div><!--/.contact-form-->
 						</div><!--/.single-contact-box-->						
 					</div><!--/.row-->

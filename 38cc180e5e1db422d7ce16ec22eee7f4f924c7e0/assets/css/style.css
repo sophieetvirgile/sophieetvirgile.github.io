@@ -79,7 +79,7 @@ ul li {
 	
 }
 select,input,textarea,button{box-shadow:none;outline:0!important;}
-button {background: transparent;border: 0;}
+button, input[type=submit] {background: transparent;border: 0;}
 
 html,body{
     height: 100%;
