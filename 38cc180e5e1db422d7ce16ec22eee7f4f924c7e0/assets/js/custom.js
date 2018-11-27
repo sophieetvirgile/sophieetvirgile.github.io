@@ -81,23 +81,30 @@ $(document).ready(function(){
 				smartSpeed: 1000,
 				autoplay:true,
 				dots:false,
+				autoWidth:true,
 				autoplayHoverPause:true,
+				responsiveClass:true,
 				responsive:{
 						0:{
-							items:2
+							items:1,
+							loop:false,
+							center:false
 						},
-						415:{
-							items:2
+						480:{
+							items:2,
+							loop: false,
+							center:false
 						},
-						600:{
-							items:4
-
+						768:{
+							items:2,
+							loop:false,
+							center:true
 						},
 						1199:{
 							items:4
 						},
 						1200:{
-							items:7
+							items:6
 						}
 					}
 				});

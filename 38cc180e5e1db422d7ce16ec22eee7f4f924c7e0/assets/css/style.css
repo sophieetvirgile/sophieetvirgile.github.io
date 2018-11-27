@@ -537,10 +537,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .liste-area .item {padding: 0 25px;}
 
 .liste .liste-area .owl-carousel .owl-item img {
-    display: block;
+    display: table;
     width: 100%;
     height: auto;
     border-radius:0;
+    margin:auto;
 }
 
 /*-------------------------------------
