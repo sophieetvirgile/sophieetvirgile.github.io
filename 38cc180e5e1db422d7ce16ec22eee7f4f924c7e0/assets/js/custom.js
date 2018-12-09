@@ -76,8 +76,8 @@ $(document).ready(function(){
 		// i. client (carousel)
 		
 			$('#client').owlCarousel({
-				items:2,
-				loop:true,
+				items:1,
+				loop:false,
 				smartSpeed: 1000,
 				autoplay:true,
 				dots:false,
@@ -87,24 +87,19 @@ $(document).ready(function(){
 				responsive:{
 						0:{
 							items:1,
-							loop:false,
 							center:false
 						},
 						480:{
-							items:2,
-							loop: false,
+							items:1,
 							center:false
 						},
 						768:{
-							items:2,
-							loop:false,
+							items:1,
 							center:true
 						},
-						1199:{
-							items:4
-						},
-						1200:{
-							items:6
+						3000:{
+							items:1,
+							center: true
 						}
 					}
 				});
