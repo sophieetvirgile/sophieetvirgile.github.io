@@ -437,7 +437,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .experience-time-responsive{display: none;}
 
 /*-------------------------------------
-        7.  Messe and 8. Reception
+        7.  Messe
 --------------------------------------*/
 .messe {    
     padding: 50px 0 100px;
@@ -517,9 +517,15 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .about-list-icon ul li a i {
     margin-left: 6px;
 }
-/*.ab-list-icon */
 
-/*.single-about-img */
+/*-------------------------------------
+        8. Reception
+--------------------------------------*/
+
+.reception {    
+    padding: 50px 0 100px;
+    border: 1px solid #e5ebf2;
+}
 
 
 /*-------------------------------------
