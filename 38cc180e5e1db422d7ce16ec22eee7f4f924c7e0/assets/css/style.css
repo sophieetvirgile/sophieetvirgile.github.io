@@ -470,7 +470,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{
+    position: relative;
+    box-shadow: 0 5px 20px rgba(14,25,80,.30);
+    margin-bottom:100px;
+}
 .single-about-img:before {
     position:  absolute;
     display: flex;
