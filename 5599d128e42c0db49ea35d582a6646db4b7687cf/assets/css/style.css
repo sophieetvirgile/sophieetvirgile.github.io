@@ -437,7 +437,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .experience-time-responsive{display: none;}
 
 /*-------------------------------------
-        7.  Messe and 8. Reception
+        7.  Messe
 --------------------------------------*/
 .messe {    
     padding: 50px 0 100px;
@@ -470,7 +470,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{
+    position: relative;
+    box-shadow: 0 5px 20px rgba(14,25,80,.30);
+    margin-bottom:100px;
+}
 .single-about-img:before {
     position:  absolute;
     display: flex;
@@ -517,9 +521,15 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .about-list-icon ul li a i {
     margin-left: 6px;
 }
-/*.ab-list-icon */
 
-/*.single-about-img */
+/*-------------------------------------
+        8. Reception
+--------------------------------------*/
+
+.reception {    
+    padding: 50px 0 100px;
+    border: 1px solid #e5ebf2;
+}
 
 
 /*-------------------------------------
