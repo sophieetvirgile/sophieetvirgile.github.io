@@ -546,6 +546,16 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .liste-area .item {padding: 0 25px;}
 
+.liste-more-txt h3 {
+    font-size:18px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align:center;
+}
+
 .liste .liste-area .owl-carousel .owl-item img {
     display: table;
     width: 100%;
